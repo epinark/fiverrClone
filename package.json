@@ -9,14 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "node-sass": "^9.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.6",
     "vite": "^4.0.0"
   }
 }

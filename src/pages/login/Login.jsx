@@ -1,5 +1,8 @@
+import React from "react";
 import "./Login.scss";
 
-export default function Login() {
-  return <div className="login">Login</div>;
+function Login() {
+  return <div>Login</div>;
 }
+
+export default Login;

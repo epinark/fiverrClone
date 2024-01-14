@@ -16,6 +16,23 @@ const Orders = () => {
       }),
   });
 
+  const handleContact = async (order) => {
+    const sellerId = order.sellerId;
+    const buyerId = order.buyerId;
+    const id = sellerId + buyerId;
+
+    try {
+      const res = await newRequest.get(`/conversations/single/${id}`);
+      navigate(`/message/${res.data.id}`);
+    } catch (err) {
+      if (err.response.status === 404) {
+        const res = await newRequest.post(`/conversations/`, {
+          to: currentUser.seller ? buyerId : sellerId,
+        });
+        navigate(`/message/${res.data.id}`);
+      }
+    }
+  };
   return (
     <div className="orders">
       {isLoading ? (
@@ -57,4 +74,5 @@ const Orders = () => {
     </div>
   );
 };
+
 export default Orders;

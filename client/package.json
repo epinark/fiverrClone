@@ -13,6 +13,7 @@
     "@stripe/stripe-js": "^2.3.0",
     "@tanstack/react-query": "^5.17.9",
     "axios": "^1.6.5",
+    "infinite-react-carousel": "^1.2.11",
     "moment": "^2.30.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

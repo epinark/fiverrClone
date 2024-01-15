@@ -28,6 +28,7 @@ const Pay = () => {
     };
     makeRequest();
   }, []);
+
   const appearance = {
     theme: "stripe",
   };
@@ -35,7 +36,7 @@ const Pay = () => {
     clientSecret,
     appearance,
   };
-  console.log(res);
+
   return (
     <div className="pay">
       {clientSecret && (

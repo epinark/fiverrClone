@@ -1,5 +1,6 @@
 # Fiverr Clone
-Fiverr Clone is a full CRUD web application. 
+A clone of the popular platform Fiverr, this project is built using the MERN stack—MongoDB, Express.js, React, and Node.js. It offers a platform for freelancers and clients to connect, collaborate, and complete projects. 
+
 ## Built with
 [![My Skills](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![My Skills](https://skillicons.dev/icons?i=html)](https://www.w3.org/html/)
@@ -22,6 +23,17 @@ Fiverr Clone is a full CRUD web application.
 - Cookies
 - Password Hashing with Salts
 - Stripe
-
+## Features ✨ 
+- User authentication and authorization.
+- Posting and browsing gigs.
+- Real-time messaging between freelancers and clients
+- Seamless payment integration
+## What I learned 📚
+- Authentication and Authorization
+- Integrating payment gateways for handling financial transactions securely
+- Multiple fetch requests 
+- Payment Integration with Stripe
+- React Query Integration
+-  Mutation Handling
 ## Demo 🚀
 Soon 

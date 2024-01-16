@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from "react";
+import { useReducer, useState } from "react";
 import "./Add.scss";
 import { gigReducer, INITIAL_STATE } from "../../reducers/gigReducer";
 import upload from "../../utils/upload";
@@ -62,7 +62,7 @@ const Add = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     mutation.mutate(state);
-    // navigate("/mygigs")
+    navigate("/myGigs");
   };
 
   return (

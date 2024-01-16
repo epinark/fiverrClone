@@ -1,5 +1,5 @@
 import React from "react";
-import "./slide.scss";
+import "./Slide.scss";
 
 const Slide = ({ children, slidesToShow, arrowsScroll }) => {
   return (

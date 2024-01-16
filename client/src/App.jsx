@@ -14,7 +14,7 @@ import Message from "./pages/message/Message";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Pay from "./pages/pay/Pay";
 import Success from "./pages/success/Success";
-import MyGigs from "./pages/myGigs/myGigs";
+import MyGigs from "./pages/myGigs/MyGigs";
 
 function App() {
   const queryClient = new QueryClient();

@@ -27,7 +27,7 @@ const connect = async () => {
     }
 };
 app.use(cors({
-    origin: "*",
+    origin: "https://fiverr-clone-topaz.vercel.app/",
     credentials: true
 }));
 app.use(express.json());

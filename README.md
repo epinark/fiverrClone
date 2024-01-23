@@ -39,7 +39,7 @@ A clone of the popular platform Fiverr, this project is built using the MERN sta
 ## Demo 🚀
 Check out the live demo [here](https://fiverr-clone-topaz.vercel.app).
 
-**Demo Account**<br>
+**Demo Account**<br>:
 Username: test<br>
 Password: 123456
 

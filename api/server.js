@@ -26,10 +26,10 @@ const connect = async () => {
         console.log(error);
     }
 };
-// app.use(cors({
-//     origin: "https://fiverr-clone-topaz.vercel.app",
-//     credentials: true
-// }));
+app.use(cors({
+    origin: "https://fiverr-clone-topaz.vercel.app",
+    credentials: true
+}));
 // Express example
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');

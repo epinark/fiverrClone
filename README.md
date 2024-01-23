@@ -19,6 +19,7 @@ A clone of the popular platform Fiverr, this project is built using the MERN sta
 - React Router
 - Axios
 - State Management with Context API
+- Cloudinary 
 - JSON Web Tokens (JWT) Authentication
 - Cookies
 - Password Hashing with Salts
@@ -36,4 +37,9 @@ A clone of the popular platform Fiverr, this project is built using the MERN sta
 - React Query Integration
 -  Mutation Handling
 ## Demo 🚀
-Soon 
+Check out the live demo [here](https://fiverr-clone-topaz.vercel.app).
+
+**Demo Account**<br>
+Username: test<br>
+Password: 123456
+
